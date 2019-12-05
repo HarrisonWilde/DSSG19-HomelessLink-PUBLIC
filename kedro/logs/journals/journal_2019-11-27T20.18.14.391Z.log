@@ -1,0 +1,1 @@
+{"type": "ContextJournalRecord", "run_id": "2019-11-27T20.18.14.391Z", "project_path": "/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink", "env": "local", "kedro_version": "0.15.4", "tags": [], "from_nodes": [], "to_nodes": [], "node_names": [], "from_inputs": [], "load_versions": {}, "pipeline_name": null, "git_sha": null}

@@ -1,0 +1,46 @@
+2019-11-27 20:06:00,347 - root - ERROR - Kedro appears not to be installed in your current environment or your current IPython session was not started in a valid Kedro project.
+2019-11-27 20:08:26,889 - root - ERROR - Kedro appears not to be installed in your current environment or your current IPython session was not started in a valid Kedro project.
+2019-11-27 20:09:26,540 - root - ERROR - Kedro's ipython session startup script failed:
+No files found in ['/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/conf/base', '/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/conf/local', '/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/src/homelesslink/pipelines/data_science/conf', '/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/src/homelesslink/pipelines/data_engineering/conf'] matching the glob pattern(s): ['*globals.yml']
+Traceback (most recent call last):
+  File "/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/.ipython/profile_default/startup/00-kedro-init.py", line 33, in reload_kedro
+    context = load_context(path)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/kedro/context/context.py", line 525, in load_context
+    context = context_class(project_path, **kwargs)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/kedro/context/context.py", line 103, in __init__
+    self._setup_logging()
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/kedro/context/context.py", line 307, in _setup_logging
+    conf_logging = self.config_loader.get("logging*", "logging*/**")
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/kedro/context/context.py", line 303, in config_loader
+    return self._get_config_loader()
+  File "/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/src/homelesslink/run.py", line 72, in _get_config_loader
+    return self._create_config_loader(conf_paths)
+  File "/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/src/homelesslink/run.py", line 77, in _create_config_loader
+    globals_pattern="*globals.yml",
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/kedro/contrib/config/templated_config.py", line 155, in __init__
+    self._arg_dict = super().get(globals_pattern) if globals_pattern else {}
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/kedro/config/config.py", line 191, in get
+    "pattern(s): {}".format(str(self.conf_paths), str(list(patterns)))
+kedro.config.config.MissingConfigException: No files found in ['/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/conf/base', '/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/conf/local', '/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/src/homelesslink/pipelines/data_science/conf', '/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/src/homelesslink/pipelines/data_engineering/conf'] matching the glob pattern(s): ['*globals.yml']
+2019-11-27 20:10:17,721 - root - ERROR - Kedro's ipython session startup script failed:
+No files found in ['/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/conf/base', '/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/conf/local', '/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/src/homelesslink/pipelines/data_science/conf', '/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/src/homelesslink/pipelines/data_engineering/conf'] matching the glob pattern(s): ['*globals.yml']
+Traceback (most recent call last):
+  File "/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/.ipython/profile_default/startup/00-kedro-init.py", line 33, in reload_kedro
+    context = load_context(path)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/kedro/context/context.py", line 525, in load_context
+    context = context_class(project_path, **kwargs)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/kedro/context/context.py", line 103, in __init__
+    self._setup_logging()
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/kedro/context/context.py", line 307, in _setup_logging
+    conf_logging = self.config_loader.get("logging*", "logging*/**")
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/kedro/context/context.py", line 303, in config_loader
+    return self._get_config_loader()
+  File "/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/src/homelesslink/run.py", line 72, in _get_config_loader
+    return self._create_config_loader(conf_paths)
+  File "/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/src/homelesslink/run.py", line 77, in _create_config_loader
+    globals_pattern="*globals.yml",
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/kedro/contrib/config/templated_config.py", line 155, in __init__
+    self._arg_dict = super().get(globals_pattern) if globals_pattern else {}
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/kedro/config/config.py", line 191, in get
+    "pattern(s): {}".format(str(self.conf_paths), str(list(patterns)))
+kedro.config.config.MissingConfigException: No files found in ['/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/conf/base', '/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/conf/local', '/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/src/homelesslink/pipelines/data_science/conf', '/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/src/homelesslink/pipelines/data_engineering/conf'] matching the glob pattern(s): ['*globals.yml']

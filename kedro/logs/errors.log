@@ -1,0 +1,96 @@
+2019-11-27 20:24:30,075 - root - ERROR - Kedro's ipython session startup script failed:
+Java gateway process exited before sending its port number
+Traceback (most recent call last):
+  File "/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/.ipython/profile_default/startup/00-kedro-init.py", line 33, in reload_kedro
+    context = load_context(path)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/kedro/context/context.py", line 525, in load_context
+    context = context_class(project_path, **kwargs)
+  File "/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/src/homelesslink/run.py", line 64, in __init__
+    self.init_spark_session()
+  File "/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/src/homelesslink/run.py", line 82, in init_spark_session
+    self._spark_session = spark_session_conf.master("yarn").getOrCreate()
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/sql/session.py", line 173, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/context.py", line 367, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/context.py", line 133, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/context.py", line 316, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/java_gateway.py", line 46, in launch_gateway
+    return _launch_gateway(conf)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/java_gateway.py", line 108, in _launch_gateway
+    raise Exception("Java gateway process exited before sending its port number")
+Exception: Java gateway process exited before sending its port number
+2019-11-27 20:25:12,241 - root - ERROR - Kedro's ipython session startup script failed:
+Java gateway process exited before sending its port number
+Traceback (most recent call last):
+  File "/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/.ipython/profile_default/startup/00-kedro-init.py", line 33, in reload_kedro
+    context = load_context(path)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/kedro/context/context.py", line 525, in load_context
+    context = context_class(project_path, **kwargs)
+  File "/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/src/homelesslink/run.py", line 64, in __init__
+    self.init_spark_session()
+  File "/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/src/homelesslink/run.py", line 82, in init_spark_session
+    self._spark_session = spark_session_conf.master("yarn").getOrCreate()
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/sql/session.py", line 173, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/context.py", line 367, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/context.py", line 133, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/context.py", line 316, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/java_gateway.py", line 46, in launch_gateway
+    return _launch_gateway(conf)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/java_gateway.py", line 108, in _launch_gateway
+    raise Exception("Java gateway process exited before sending its port number")
+Exception: Java gateway process exited before sending its port number
+2019-11-27 20:25:32,388 - root - ERROR - Kedro's ipython session startup script failed:
+Java gateway process exited before sending its port number
+Traceback (most recent call last):
+  File "/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/.ipython/profile_default/startup/00-kedro-init.py", line 33, in reload_kedro
+    context = load_context(path)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/kedro/context/context.py", line 525, in load_context
+    context = context_class(project_path, **kwargs)
+  File "/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/src/homelesslink/run.py", line 64, in __init__
+    self.init_spark_session()
+  File "/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/src/homelesslink/run.py", line 83, in init_spark_session
+    self._spark_session = spark_session_conf.master("yarn").getOrCreate()
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/sql/session.py", line 173, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/context.py", line 367, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/context.py", line 133, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/context.py", line 316, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/java_gateway.py", line 46, in launch_gateway
+    return _launch_gateway(conf)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/java_gateway.py", line 108, in _launch_gateway
+    raise Exception("Java gateway process exited before sending its port number")
+Exception: Java gateway process exited before sending its port number
+2019-11-27 20:27:13,674 - root - ERROR - Kedro's ipython session startup script failed:
+Java gateway process exited before sending its port number
+Traceback (most recent call last):
+  File "/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/.ipython/profile_default/startup/00-kedro-init.py", line 33, in reload_kedro
+    context = load_context(path)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/kedro/context/context.py", line 525, in load_context
+    context = context_class(project_path, **kwargs)
+  File "/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/src/homelesslink/run.py", line 64, in __init__
+    self.init_spark_session()
+  File "/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink/src/homelesslink/run.py", line 83, in init_spark_session
+    self._spark = spark_session_conf.master("yarn").getOrCreate()
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/sql/session.py", line 173, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/context.py", line 367, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/context.py", line 133, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/context.py", line 316, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/java_gateway.py", line 46, in launch_gateway
+    return _launch_gateway(conf)
+  File "/anaconda3/envs/homelesslink/lib/python3.6/site-packages/pyspark/java_gateway.py", line 108, in _launch_gateway
+    raise Exception("Java gateway process exited before sending its port number")
+Exception: Java gateway process exited before sending its port number
