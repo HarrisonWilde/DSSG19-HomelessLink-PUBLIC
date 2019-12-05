@@ -1,0 +1,1 @@
+{"type": "ContextJournalRecord", "run_id": "2019-12-05T17.52.37.256Z", "project_path": "/Users/sheldon_tsen/Projects/HomessLink/tech4good/homelesslink-public/DSSG19-HomelessLink-PUBLIC", "env": "local", "kedro_version": "0.15.4", "tags": [], "from_nodes": [], "to_nodes": [], "node_names": [], "from_inputs": [], "load_versions": {}, "pipeline_name": null, "git_sha": "8be3884"}
